@@ -2,10 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
-
+import commventure from "@/public/commventure.png";
+import gameclub from "@/public/gameclub.png";
+import tedx from "@/public/tedx.png";
 export const links = [
   {
     name: "Home",
@@ -36,71 +35,70 @@ export const links = [
 export const experiencesData = [
   {
     title: "Graduated bootcamp",
-    location: "Miami, FL",
+    location: "Mohirdev online platform",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I graduated Frontend React.js course after 8 months of studying. I am currently working as a freelancer.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2024",
   },
   {
     title: "Front-End Developer",
-    location: "Orlando, FL",
+    location: "Tashkent, Uzbekistan",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I have been building responsive and interactive web interfaces using modern technologies like React and Next.js. During this time, I improved my skills in component-based architecture, API integration, and state management.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2024 - present",
   },
   {
     title: "Full-Stack Developer",
-    location: "Houston, TX",
+    location: "Remote",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "Currently, I am working as a full-stack developer on freelance projects. My tech stack includes React, Next.js, TypeScript, Tailwind CSS, Prisma, and Supabase. I am passionate about building dynamic web applications and always open to new full-time opportunities.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2024 - present",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "CommVenture",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "CommVenture is a volunteer onboarding platform created for the IT Community of Uzbekistan. It serves as a simple and effective way to introduce new volunteers to the community.",
+    tags: ["React","Typescript", "Next.js", "MongoDB", "Tailwind", ],
+    imageUrl: commventure,
+    live: "https://commventure-it.vercel.app/"
   },
   {
-    title: "rmtDev",
+    title: "Ajou TEDx",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
+      "This site shares information about the upcoming TEDx event at Ajou University in Tashkent, including details about our speakers, program, venue, and sponsors.",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+    imageUrl: tedx,
+    live: "https://tedx.ajou.uz/"
   },
   {
-    title: "Word Analytics",
+    title: "Anfield Arena",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "Game Club, a platform designed for gaming enthusiasts! This site provides information about the latest games, game reviews, and a seamless user experience with interactive features.",
+    tags: ["HTML", "CSS", "Bootstrap", "Javacript"],
+    imageUrl: gameclub,
+    live: "https://anfield-arena.netlify.app/"
   },
 ] as const;
 
 export const skillsData = [
   "HTML",
   "CSS",
+  "Bootstrap",
   "JavaScript",
   "TypeScript",
   "React",
   "Next.js",
   "Node.js",
+  "Three.js",
   "Git",
-  "Tailwind",
-  "Prisma",
-  "MongoDB",
+  "TailwindCSS",
   "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
   "Python",
   "Django",
   "Framer Motion",
