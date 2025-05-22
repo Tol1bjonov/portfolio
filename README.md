@@ -1,6 +1,6 @@
 
 
-# [Yusufjon Tolibjonov]
+# Yusufjon Tolibjonov
 
 ## Technologies
 
