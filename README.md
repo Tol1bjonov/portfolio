@@ -1,6 +1,6 @@
-[![Yusufjon TOlibjonov]
 
-# [Watch video here](https://youtu.be/sUKptmUVIBM)
+
+# [Yusufjon Tolibjonov]
 
 ## Technologies
 
